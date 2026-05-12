@@ -18,7 +18,7 @@ public class Gerenciador {
 
     public void remover(String nome){
             for (int i = 0; i < eventos.size(); i++){
-                //se usar o equals tem que digitar igualmente, mas com contains basta uma palavra
+                //se usar o equals tem que digitar igualmente, mas com contains basta uma palavra igual
                 if (eventos.get(i).getNomeDoEvento()
                         .toLowerCase()
                         .contains(nome.toLowerCase())){
